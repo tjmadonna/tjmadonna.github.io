@@ -91,7 +91,7 @@ body {
 }
 
 .header-links-button a:hover img {
-    filter: invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .header-divider {
