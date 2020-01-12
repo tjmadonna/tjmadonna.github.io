@@ -15,6 +15,7 @@
       {% for item in site.data.links %}
         <li class="header-links-button">
           <a href="{{ item.link }}">
+            <img src="assets/images/{{ item.icon }}" alt="{{ item.name }} icon">
             {{ item.name }}
           </a>
         </li>
