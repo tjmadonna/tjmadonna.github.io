@@ -1,0 +1,12 @@
+# Site settings
+title:
+email:
+author: Tyler Madonna
+description:
+url:
+hero-image: hero-image.jpg
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: assets/css

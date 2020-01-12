@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="section-title">
+  Portfolio
+</div>
+
+{% for item in site.data.portfolio %}
+
+  <div class="portfolio-grid">
+    <div class="portfolio-image">
+      <img src="assets/images/{{ item.app-image }}" alt="{{ item.app-image-alt }}">
+    </div>
+    <div class="portfolio-content">
+      <div class="portfolio-app-title">
+        <img src="assets/images/{{ item.app-icon }}" alt="{{ item.app-icon-alt }}">
+        {{ item.name }}
+      </div>
+      {{ item.description }}
+      <div class="portfolio-section-title">
+        Role
+      </div>
+      {{ item.role }}
+      <div class="portfolio-section-title">
+        Technologies
+      </div>
+      {{ item.technologies }}
+      <div class="app-store-badge">
+        <a href="{{ item.url }}">
+          <img src="assets/images/google-play-badge.png" alt="google play badge">
+        </a>
+      </div>
+    </div>
+  </div>
+
+{% endfor %}

@@ -1,0 +1,25 @@
+<ul class="nav-bar">
+  {% for item in site.data.navigation %}
+    <li class="nav-button">
+      <a class="{% if page.url == item.link %}nav-button-active{% endif %}" href="{{ item.link }}">
+        {{ item.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+<div class="header">
+  <div class="header-image">
+    <h1 class="header-title">Tyler Madonna</h1>
+    <h3 class="header-subtitle">Mobile Developer</h3>
+    <ul class="header-links">
+      {% for item in site.data.links %}
+        <li class="header-links-button">
+          <a href="{{ item.link }}">
+            {{ item.name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="header-divider"></div>
