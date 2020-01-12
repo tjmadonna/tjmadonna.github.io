@@ -142,6 +142,7 @@ body {
     justify-content: start;
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: #111;
 }
 
 .portfolio-app-title img {
@@ -155,6 +156,7 @@ body {
     font-size: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    color: #111;
 }
 
 .app-store-badge {
