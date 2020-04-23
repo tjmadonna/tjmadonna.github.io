@@ -113,7 +113,7 @@ body {
     grid-template-areas: "portfolio-image portfolio-content portfolio-content";
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 30px 100px 30px;
 }
 
 .portfolio-image {
@@ -162,6 +162,10 @@ body {
     margin-top: 1.5rem;
 }
 
+.app-store-badge img {
+    max-height: 73px;
+}
+
 @media (max-width: 1000px) {
 
     .portfolio-app-title {
@@ -200,7 +204,7 @@ body {
         gap: 10px;
         grid-template-areas: "portfolio-image" "portfolio-content";
         text-align: center;
-        padding: 0 20px;
+        padding: 0 20px 100px 20px;
     }
 
     .portfolio-image img {

@@ -1,8 +1,25 @@
+- name: Bus Watch
+  description: >
+    Bus Watch shows real-time transit information for the Pittsburgh Port Authority transit system. 
+    The app shows bus stops from a SQLite database in a Google Maps view and retrieves bus arrival times from a
+    backend RESTful API. The new version of the app will feature a redesigned interface
+    and a custom RESTful API backend server developed with NodeJS, Express, and MongoDB. The new RESTful API will 
+    allow the app to retrieve and cache bus stops and bus arrival times more efficiently.
+  role: Sole Android and JavaScript developer from new project to current release
+  technologies: Kotlin, RxJava, SQLite, Retrofit, JavaScript, NodeJS, Express, MongoDB
+  url: https://github.com/tjmadonna/buswatch
+  app-image: buswatch-app-image.png
+  app-image-alt: buswatch app image
+  app-icon: buswatch-app-icon.png
+  app-icon-alt: buswatchapp icon
+  link-image: github-logo.png
+  link-image-alt: github logo
+
 - name: Recipe Link
   description: >
     Recipe Link stores your online recipes in a clean interface that allows you to quickly search and filter. 
-    The app uses a Flask REST API backend, written in Python, to retrieve important recipe information from the webpage.
-    Recipe Link is still being maintained and version 3 is expected at the beginning of 2020.
+    The app uses a Flask RESTful API backend server, written in Python, to retrieve important recipe information from the webpage.
+    Recipe Link is still being maintained and version 3 is expected Summer 2020.
   role: Sole Android and Python developer from new project to current release
   technologies: Java, Kotlin, RxJava, SQLite, Retrofit, Flask (Python)
   url: https://play.google.com/store/apps/details?id=com.inelasticcollision.recipelink
@@ -10,3 +27,5 @@
   app-image-alt: recipe link app image
   app-icon: recipe-link-app-icon.png
   app-icon-alt: recipe link app icon
+  link-image: google-play-badge.png
+  link-image-alt: google play badge
