@@ -7,13 +7,11 @@
     allow the app to retrieve and cache bus stops and bus arrival times more efficiently.
   role: Sole Android and JavaScript developer from new project to current release
   technologies: Kotlin, RxJava, SQLite, Retrofit, JavaScript, NodeJS, Express, MongoDB
-  url: https://github.com/tjmadonna/buswatch
-  app-image: buswatch-app-image.png
-  app-image-alt: buswatch app image
   app-icon: buswatch-app-icon.png
   app-icon-alt: buswatchapp icon
-  link-image: github-logo.png
-  link-image-alt: github logo
+  app-image: buswatch-app-image.png
+  app-image-alt: buswatch app image
+  github-url: https://github.com/tjmadonna/buswatch
 
 - name: Recipe Link
   description: >
@@ -22,10 +20,9 @@
     Recipe Link is still being maintained and version 3 is expected Summer 2020.
   role: Sole Android and Python developer from new project to current release
   technologies: Java, Kotlin, RxJava, SQLite, Retrofit, Flask (Python)
-  url: https://play.google.com/store/apps/details?id=com.inelasticcollision.recipelink
-  app-image: recipe-link-app-image.png
-  app-image-alt: recipe link app image
   app-icon: recipe-link-app-icon.png
   app-icon-alt: recipe link app icon
-  link-image: google-play-badge.png
-  link-image-alt: google play badge
+  app-image: recipe-link-app-image.png
+  app-image-alt: recipe link app image
+  google-play-url: https://play.google.com/store/apps/details?id=com.inelasticcollision.recipelink
+  github-url: https://github.com/tjmadonna/recipier-android

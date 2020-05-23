@@ -25,10 +25,18 @@ layout: default
         Technologies
       </div>
       {{ item.technologies }}
-      <div class="app-store-badge">
-        <a href="{{ item.url }}">
-          <img src="assets/images/{{ item.link-image }}" alt="{{ item.link-image-alt }}">
-        </a>
+      <div class="badge-container">
+        {% if item.google-play-url %}
+          <a href="{{ item.google-play-url }}">
+            <img src="assets/images/google-play-badge.png" alt="Google Play badge">
+          </a>
+        {% endif %}
+
+        {% if item.github-url %}
+          <a href="{{ item.github-url }}">
+            <img src="assets/images/github-badge.png" alt="GitHub badge">
+          </a>
+        {% endif %}
       </div>
     </div>
   </div>

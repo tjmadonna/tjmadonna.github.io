@@ -158,12 +158,14 @@ body {
     color: #111;
 }
 
-.app-store-badge {
-    margin-top: 1.5rem;
+.badge-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
-.app-store-badge img {
-    max-height: 73px;
+.badge-container img {
+    max-height: 100px;
 }
 
 @media (max-width: 1000px) {
@@ -183,6 +185,10 @@ body {
 
     .portfolio-section-title {
         font-size: 1.75rem;
+    }
+
+    .badge-container img {
+        max-height: 80px;
     }
 }
 
@@ -228,11 +234,29 @@ body {
     .portfolio-section-title {
         font-size: 1.5rem;
     }
+
+    .badge-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .badge-container img {
+        max-height: 75px;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
     .header-title {
         font-size: 2.25rem;
+    }
+
+    .badge-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .badge-container img {
+        max-height: 75px;
     }
 }
