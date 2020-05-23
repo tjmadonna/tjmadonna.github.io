@@ -4,3 +4,6 @@
 - name: Twitter
   icon: twitter.svg
   link: https://twitter.com/tjmadonna
+- name: Email
+  icon: Email.svg
+  link: mailto:dev@tylermadonna.com
