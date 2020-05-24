@@ -1,11 +1,16 @@
 ---
 layout: default
 ---
-<div class="section-title">
-  Portfolio
-</div>
+{% assign current_type = "" %}
 
 {% for item in site.data.portfolio %}
+
+  {% if item.type != current_type %}
+    <div class="section-title">
+      {{ item.type }} Projects
+    </div>
+    {% assign current_type = item.type %}
+  {% endif %}
 
   <div class="portfolio-grid">
     <div class="portfolio-image">
@@ -26,16 +31,28 @@ layout: default
       </div>
       {{ item.technologies }}
       <div class="badge-container">
+
+        {% assign margin_cls = "" %}
+
+        {% if item.app-store-url %}
+          <a href="{{ item.app-store-url }}">
+            <img src="assets/images/app-store-badge.svg" alt="App Store badge" class="{{ margin_cls }}">
+          </a>
+          {% assign margin_cls = "badge-margin" %}
+        {% endif %}
+
         {% if item.google-play-url %}
           <a href="{{ item.google-play-url }}">
-            <img src="assets/images/google-play-badge.png" alt="Google Play badge">
+            <img src="assets/images/google-play-badge.svg" alt="Google Play badge" class="{{ margin_cls }}">
           </a>
+          {% assign margin_cls = "badge-margin" %}
         {% endif %}
 
         {% if item.github-url %}
           <a href="{{ item.github-url }}">
-            <img src="assets/images/github-badge.png" alt="GitHub badge">
+            <img src="assets/images/github-badge.svg" alt="GitHub badge" class="{{ margin_cls }}">
           </a>
+          {% assign margin_cls = "badge-margin" %}
         {% endif %}
       </div>
     </div>

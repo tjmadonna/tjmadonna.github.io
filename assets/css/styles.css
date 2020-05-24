@@ -148,7 +148,6 @@ body {
     width: 5rem;
     height: 5rem;
     margin-right: 1rem;
-    margin-left: -12px;
 }
 
 .portfolio-section-title {
@@ -165,7 +164,11 @@ body {
 }
 
 .badge-container img {
-    max-height: 100px;
+    height: 80px;
+}
+
+.badge-margin {
+    margin-left: 1.5rem;
 }
 
 @media (max-width: 1000px) {
@@ -188,7 +191,11 @@ body {
     }
 
     .badge-container img {
-        max-height: 80px;
+        height: 68px;
+    }
+
+    .badge-margin {
+        margin-left: 1rem;
     }
 }
 
@@ -241,7 +248,13 @@ body {
     }
 
     .badge-container img {
-        max-height: 75px;
+        height: 75px;
+    }
+
+    .badge-margin {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 1rem;
     }
 }
 
@@ -255,8 +268,24 @@ body {
         display: flex;
         flex-direction: column;
     }
+}
 
-    .badge-container img {
-        max-height: 75px;
+@media (max-width: 344px) {
+
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .portfolio-app-title {
+        font-size: 1.75rem;
+    }
+
+    .portfolio-app-title img {
+        width: 3.75rem;
+        height: 3.75rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
     }
 }

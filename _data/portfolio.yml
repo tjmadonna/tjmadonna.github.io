@@ -1,4 +1,20 @@
+- name: Number Square
+  type: iOS
+  description: >
+    Number Square is a number search game developed in Swift and SpriteKit. The player is presented with a grid of
+    numbers and has a set amount of time to find all occurrences of a specified number. The player gains points 
+    and additional time by finding all the numbers in a round. The game integrates with Game Center so players can
+    compete and share their high scores with each other.
+  role: Sole Swift developer from new project to current release
+  technologies: Swift, SpriteKit, Game Center, MVC
+  app-icon: numbersquare-app-icon.png
+  app-icon-alt: number square app icon
+  app-image: numbersquare-app-image.png
+  app-image-alt: number square app image
+  app-store-url: https://apps.apple.com/us/app/number-square-search-game/id1262794007
+
 - name: Bus Watch
+  type: Android
   description: >
     Bus Watch shows real-time transit information for the Pittsburgh Port Authority transit system. 
     The app shows bus stops from a SQLite database in a Google Maps view and retrieves bus arrival times from a
@@ -8,12 +24,13 @@
   role: Sole Android and JavaScript developer from new project to current release
   technologies: Kotlin, RxJava, SQLite, Retrofit, JavaScript, NodeJS, Express, MongoDB
   app-icon: buswatch-app-icon.png
-  app-icon-alt: buswatchapp icon
+  app-icon-alt: bus watch app icon
   app-image: buswatch-app-image.png
-  app-image-alt: buswatch app image
+  app-image-alt: bus watch app image
   github-url: https://github.com/tjmadonna/buswatch
 
 - name: Recipe Link
+  type: Android
   description: >
     Recipe Link stores your online recipes in a clean interface that allows you to quickly search and filter. 
     The app uses a Flask RESTful API backend server, written in Python, to retrieve important recipe information from the webpage.
