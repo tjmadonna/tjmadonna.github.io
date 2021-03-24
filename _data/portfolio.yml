@@ -1,18 +1,17 @@
-- name: Number Square
-  type: iOS
+- name: Recipier
+  type: Android
   description: >
-    Number Square is a number search game developed in Swift and SpriteKit. The player is presented with a grid of
-    numbers and has a set amount of time to find all occurrences of a specified number. The player gains points 
-    and additional time by finding all the numbers in a round. The game integrates with Game Center so players can
-    compete and share their high scores with each other.
-  role: Sole Swift developer from new project to current release
-  technologies: Swift, SpriteKit, Game Center, MVC
-  app-icon: numbersquare-app-icon.png
-  app-icon-alt: number square app icon
-  app-image: numbersquare-app-image.png
-  app-image-alt: number square app image
-  app-store-url: https://apps.apple.com/us/app/number-square-search-game/id1262794007
-
+    Recipier stores your online recipes in a clean interface that allows you to quickly search and filter. 
+    The app uses a RESTful API backend to retrieve important recipe information from the webpage.
+  role: Sole Android and Python developer from new project to current release
+  technologies: Kotlin, Kotlin Coroutines, Room (SQLite), Retrofit, Dagger, Python, AWS Lambda
+  app-icon: recipier-app-icon.png
+  app-icon-alt: recipier app icon
+  app-image: recipier-app-image.png
+  app-image-alt: recipier app image
+  google-play-url: https://play.google.com/store/apps/details?id=com.inelasticcollision.recipelink
+  github-url: https://github.com/tjmadonna/recipier-android
+  
 - name: Bus Watch
   type: Android
   description: >
@@ -28,18 +27,18 @@
   app-image: buswatch-app-image.png
   app-image-alt: bus watch app image
   github-url: https://github.com/tjmadonna/buswatch
-
-- name: Recipe Link
-  type: Android
+  
+- name: Number Square
+  type: iOS
   description: >
-    Recipe Link stores your online recipes in a clean interface that allows you to quickly search and filter. 
-    The app uses a Flask RESTful API backend server, written in Python, to retrieve important recipe information from the webpage.
-    Recipe Link is still being maintained and version 3 is expected Summer 2020.
-  role: Sole Android and Python developer from new project to current release
-  technologies: Java, Kotlin, RxJava, SQLite, Retrofit, Flask (Python)
-  app-icon: recipe-link-app-icon.png
-  app-icon-alt: recipe link app icon
-  app-image: recipe-link-app-image.png
-  app-image-alt: recipe link app image
-  google-play-url: https://play.google.com/store/apps/details?id=com.inelasticcollision.recipelink
-  github-url: https://github.com/tjmadonna/recipier-android
+    Number Square is a number search game developed in Swift and SpriteKit. The player is presented with a grid of
+    numbers and has a set amount of time to find all occurrences of a specified number. The player gains points 
+    and additional time by finding all the numbers in a round. The game integrates with Game Center so players can
+    compete and share their high scores with each other.
+  role: Sole Swift developer from new project to current release
+  technologies: Swift, SpriteKit, Game Center, MVC
+  app-icon: numbersquare-app-icon.png
+  app-icon-alt: number square app icon
+  app-image: numbersquare-app-image.png
+  app-image-alt: number square app image
+  app-store-url: https://apps.apple.com/us/app/number-square-search-game/id1262794007
